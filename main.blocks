@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3B-dIM2~aVc@Ad/@s_{8">hand</variable></variables><block type="device_gesture_event" id="+W3HAh1y*XXw+BN7kYVS" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="dG0u23*2|r,OF{2|FnAk"><field name="VAR" id="3B-dIM2~aVc@Ad/@s_{8">hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="k.Z.M]urP4DmkMP?!(R}"><value name="min"><shadow type="math_number" id="[q`^A!em6)GUK)IgGr})"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="6PtH)6)Wl|trvcZ@;;3L"><field name="NUM">10</field></shadow></value></block></value><next><block type="controls_if" id="k)?MWs%vhoc]g5oy);jz"><value name="IF0"><shadow type="logic_boolean" id="#Yr#-@=,;uh9KHy2.u|d"><field name="BOOL">TRUE</field></shadow></value><statement name="DO0"><block type="device_show_leds" id="+o@qQh3YnvPv;`7kqXBP"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block></xml>
